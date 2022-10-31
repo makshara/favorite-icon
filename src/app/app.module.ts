@@ -3,6 +3,7 @@ import { AuthorsService } from './authors.service';
 import { CoursesService } from './courses.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {MatIconModule} from '@angular/material/icon';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -22,7 +23,8 @@ import { AuthorsComponent } from './authors/authors.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule
   ],
   providers: [
     CoursesService,
