@@ -12,6 +12,7 @@ import { CoursesComponent } from './courses.component';
 import { CourseComponent } from './course/course.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { AuthorsComponent } from './authors/authors.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AuthorsComponent } from './authors/authors.component';
     CoursesComponent,
     CourseComponent,
     FavoriteComponent,
-    AuthorsComponent
+    AuthorsComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
+
 import { FavoriteComponent } from './favorite/favorite.component';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,13 +8,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  post = {
-    title: "Title",
-    isFavorite: true
-  }
-}
+  //post = {
+  //  title: "Title",
+  //  isFavorite: true
+ // courses = [
+  //  {id:1, name: 'course1'},
+  //  {id:2, name: 'course2'},
+  //  {id:3, name: 'course3'}
+  //]
 
+  }
+//}
+
+/*
 OnFavoriteChanged() {
-  console.log("Favorite Changed");
+  console.log("Favorite Changed: " + this.post.isFavorite);
 }
+}
+*/
 
